@@ -1,0 +1,9 @@
+He repo cybersecurity related project ahe, jo simple language madhe sangaych tar ek **"nakli trap" (honeytoken) banavnyasathi** vaparla jato.
+
+### Ha Repo Kai Kartu?
+
+* **Nakli Credentials / Bait:** Ha program ek fake API key, password, kiwa token generate kartu ani tumchya system kiwa code madhe thevto.
+* **Attacker Sathi Jaal (Trap):** Ya token cha kuthlyach real kamasathi vapar hot nahi. Pan jevha ekhada hacker tumcha system breach karun ti fake key steal karel ani use karaycha prayatna karel, tya veles to visual tripwire sarkha trigger hoto.
+* **Instant Alert & Tracking:** Hacker ne ti key vapartach, tumhala lagech alert jatos. Sobatach hacker cha IP address, time, ani request details log hotat, jyamule tumhala samajta ki system madhe intrusion zalay.
+
+Briefly, ha repo **early-warning intrusion detection** sathi vaparla jato.
