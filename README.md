@@ -41,9 +41,10 @@ The moment an unauthorized actor attempts to interact with or use a decoy token,
 ---
 
 ## 🏗️ Architecture & How It Works
+<img width="1097" height="960" alt="Gemini_Generated_Image_ebrqonebrqonebrq" src="https://github.com/user-attachments/assets/cba4106d-2a3c-4c6d-8cd8-4bad6881a698" />
 
 
-
+```
 
 [ Attacker / Intruder ]
 │
@@ -60,7 +61,7 @@ The moment an unauthorized actor attempts to interact with or use a decoy token,
 ▼ (Dispatches real-time alert)
 [ Security Team / Webhook / SIEM ]
 
-
+```
 
 1. **Deploy:** Generate unique decoy tokens and embed them in source code, configuration files, or local environments.
 2. **Monitor:** The HoneyToken listener actively waits for interactions with the generated tokens.
