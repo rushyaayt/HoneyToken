@@ -10,7 +10,6 @@
 [![Python Version](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Security Focus](https://img.shields.io/badge/Domain-Cybersecurity%20%26%20Deception-red?style=for-the-badge&logo=shield)](https://github.com/rushyaayt/HoneyToken)
-<img width="538" height="418" alt="Honeypot_diagram" src="https://github.com/user-attachments/assets/d0231ccf-c8f8-4daa-85ee-bd4dc97115d5" />
 
 *Catch unauthorized network access during early reconnaissance by deploying intelligent, zero-false-positive decoy credentials.*
 
@@ -170,5 +169,6 @@ Distributed under the **MIT License**. See [`LICENSE`](https://www.google.com/se
 
 
 The Game
-![Uploading Honeypot_diagram.jpg…]()
+<img width="538" height="418" alt="Honeypot_diagram" src="https://github.com/user-attachments/assets/d0231ccf-c8f8-4daa-85ee-bd4dc97115d5" />
+
 <img width="1097" height="960" alt="Gemini_Generated_Image_ebrqonebrqonebrq" src="https://github.com/user-attachments/assets/a8b87934-a8da-4566-ab68-958b0d36e8c0" />
