@@ -39,7 +39,7 @@ The moment an unauthorized actor attempts to interact with or use a decoy token,
 ## 🏗️ Architecture & How It Works
 
 
-```
+
 
 [ Attacker / Intruder ]
 │
