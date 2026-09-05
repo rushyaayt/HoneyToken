@@ -84,11 +84,6 @@ v
 ---
 
 ## 🚀 Getting Started
-
-### Prerequisites
-
-* **Python:** 3.9 or higher
-* **Package Manager:** `pip`
 ## 🔔 Integrations
 
 Configure notifications in your `.env` file to stream real-time alerts to your security operating center (SOC) or messaging channels:
