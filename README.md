@@ -18,6 +18,10 @@
 
 ---
 
+
+<img width="538" height="418" alt="Honeypot_diagram" src="https://github.com/user-attachments/assets/4a0943c9-8107-451c-9647-272a359fe56d" />
+
+
 ## 📌 Overview
 
 **HoneyToken** is a deception-based security solution designed to catch attackers during the reconnaissance or lateral movement phase of a breach. By scattering fake API keys, database credentials, or sensitive files across environments, HoneyToken acts as a tripwire. 
