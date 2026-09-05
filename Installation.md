@@ -1,4 +1,9 @@
 
+### Prerequisites
+
+* **Python:** 3.9 or higher
+* **Package Manager:** `pip`
+
 ### Installation
 
 ```bash
