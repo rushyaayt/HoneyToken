@@ -15,27 +15,33 @@
 
 ---
 
-[Key Features](#-key-features) • [Architecture](#-architecture) • [Getting Started](#-getting-started) • [Configuration](#-configuration) • [Integrations](#-integrations) • [License](#-license)
-
 </div>
 
 ---
 
 ## 📌 Overview
+# Honeytoken-as-a-Service
 
-**HoneyToken** is an open-source active defense framework designed to detect intruders during lateral movement and exfiltration attempts. By strategically scattering lure credentials—such as fake API keys, cloud tokens, database strings, and decoy configuration files—across your codebase, servers, and CI/CD pipelines, HoneyToken acts as an invisible security tripwire.
+Lightweight service to generate and seed realistic honeytokens (API keys, fake user accounts, DB rows) and emit high-fidelity alerts when a token is used.
+
+Features
+- Generate ephemeral or persistent honeytokens
+- Simple webhook alerting and logging
+- Dockerized FastAPI app
+
+Quick start
+1. Build: docker build -t honeytoken-service .
+2. Run: docker run -p 8000:8000 honeytoken-service
+3. POST /generate to get a token; any request using the token should hit /webhook on this service (or forward alerts).
+
+Files
+- src/honeytoken_service: app code
+- examples/: seeding scripts
+- .github/workflows: CI
+
+License: MIT
 
 Because legitimate operators have no valid business reason to interact with decoy tokens, any access attempt generates an immediate, high-fidelity alert with zero false positives.
-
----
-
-## ✨ Key Features
-
-* ⚡ **Zero False Positives:** Every interaction with a honeytoken indicates unauthorized activity.
-* 🛡️ **Multiple Decoy Types:** Support for AWS Keys, JWTs, Database Credentials, and HTTP Callback Webhooks.
-* 📍 **Rich Telemetry Capture:** Logs source IP, reverse DNS, User-Agent header, geolocation data, and exact timestamp.
-* 🔔 **Instant Alerting Dispatch:** Direct integrations with Discord, Slack, PagerDuty, Webhooks, and SIEM pipelines.
-* 🪶 **Lightweight & Modular:** Asynchronous listener design with minimal resource footprint and simple API integration.
 
 ---
 
@@ -89,14 +95,17 @@ v
 ```bash
 # Clone the repository
 git clone [https://github.com/rushyaayt/HoneyToken.git](https://github.com/rushyaayt/HoneyToken.git)
-
+```
+```
 # Navigate to project root
 cd HoneyToken
-
+```
+```
 # Create a virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
+```
 # Install dependencies
 pip install -r requirements.txt
 
@@ -147,28 +156,3 @@ Configure notifications in your `.env` file to stream real-time alerts to your s
 | **Email (SMTP)** | 🚧 | *In Development* |
 
 ---
-
-## 🤝 Contributing
-
-Contributions make the open-source community an incredible place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. **Fork** the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a **Pull Request**
-
----
-
-## 🛡️ License
-
-Distributed under the **MIT License**. See [`LICENSE`](https://www.google.com/search?q=LICENSE) for details.
-
----
-
-
-
-The Game
-<img width="538" height="418" alt="Honeypot_diagram" src="https://github.com/user-attachments/assets/d0231ccf-c8f8-4daa-85ee-bd4dc97115d5" />
-
-<img width="1097" height="960" alt="Gemini_Generated_Image_ebrqonebrqonebrq" src="https://github.com/user-attachments/assets/a8b87934-a8da-4566-ab68-958b0d36e8c0" />
