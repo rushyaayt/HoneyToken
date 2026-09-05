@@ -1,24 +1,50 @@
+
+
 <div align="center">
+
 # 🍯 HoneyToken
+
 ### **Enterprise Deception & Active Intrusion Tripwire System**
+
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/rushyaayt/HoneyToken/main.yml?branch=main&style=for-the-badge&logo=github&label=Build)](https://github.com/rushyaayt/HoneyToken)
 [![Python Version](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Security Focus](https://img.shields.io/badge/Domain-Cybersecurity%20%26%20Deception-red?style=for-the-badge&logo=shield)](https://github.com/rushyaayt/HoneyToken)
+![Uploading Honeypot_diagram.jpg…]()
+
 *Catch unauthorized network access during early reconnaissance by deploying intelligent, zero-false-positive decoy credentials.*
+
+---
+<img width="1097" height="960" alt="Gemini_Generated_Image_ebrqonebrqonebrq" src="https://github.com/user-attachments/assets/2837c243-d907-4bd9-baca-645c23674898" />
+
 [Key Features](#-key-features) • [Architecture](#-architecture) • [Getting Started](#-getting-started) • [Configuration](#-configuration) • [Integrations](#-integrations) • [License](#-license)
+
 </div>
+
+---
+
 ## 📌 Overview
+
 **HoneyToken** is an open-source active defense framework designed to detect intruders during lateral movement and exfiltration attempts. By strategically scattering lure credentials—such as fake API keys, cloud tokens, database strings, and decoy configuration files—across your codebase, servers, and CI/CD pipelines, HoneyToken acts as an invisible security tripwire.
+
 Because legitimate operators have no valid business reason to interact with decoy tokens, any access attempt generates an immediate, high-fidelity alert with zero false positives.
+
+---
+
 ## ✨ Key Features
+
 * ⚡ **Zero False Positives:** Every interaction with a honeytoken indicates unauthorized activity.
 * 🛡️ **Multiple Decoy Types:** Support for AWS Keys, JWTs, Database Credentials, and HTTP Callback Webhooks.
 * 📍 **Rich Telemetry Capture:** Logs source IP, reverse DNS, User-Agent header, geolocation data, and exact timestamp.
 * 🔔 **Instant Alerting Dispatch:** Direct integrations with Discord, Slack, PagerDuty, Webhooks, and SIEM pipelines.
 * 🪶 **Lightweight & Modular:** Asynchronous listener design with minimal resource footprint and simple API integration.
+
+---
+
 ## 🏗️ Architecture
+
 The sequence below illustrates the lifecycle of an intruder interaction:
+
 
 ```
 
@@ -51,7 +77,7 @@ v
 
 ```
 
-
+---
 
 ## 🚀 Getting Started
 
@@ -78,7 +104,7 @@ pip install -r requirements.txt
 
 ```
 
-
+---
 
 ## ⚙️ Quick Usage
 
@@ -109,7 +135,7 @@ python honeytoken.py listen --port 8080
 
 ```
 
-
+---
 
 ## 🔔 Integrations
 
@@ -122,7 +148,7 @@ Configure notifications in your `.env` file to stream real-time alerts to your s
 | **Custom Webhooks** | ✅ | Forward raw JSON payloads to custom endpoints or SIEMs |
 | **Email (SMTP)** | 🚧 | *In Development* |
 
-
+---
 
 ## 🤝 Contributing
 
@@ -134,10 +160,10 @@ Contributions make the open-source community an incredible place to learn, inspi
 4. **Push** to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a **Pull Request**
 
-
+---
 
 ## 🛡️ License
 
 Distributed under the **MIT License**. See [`LICENSE`](https://www.google.com/search?q=LICENSE) for details.
 
-
+---
