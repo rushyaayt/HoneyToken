@@ -12,7 +12,7 @@
 [![Security Focus](https://img.shields.io/badge/Domain-Cybersecurity%20%26%20Deception-red?style=for-the-badge&logo=shield)](https://github.com/rushyaayt/HoneyToken)
 
 *Catch unauthorized network access during early reconnaissance by deploying intelligent, zero-false-positive decoy credentials.*
-## Check (Installation.md) for running the project
+## Check [Installation.md] for running the project
 ---
 
 </div>
