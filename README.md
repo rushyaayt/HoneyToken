@@ -1,8 +1,8 @@
 
----
 
 
-<div align="center">
+
+
 
 # 🍯 HoneyToken
 
@@ -15,13 +15,13 @@
 
 *Catch unauthorized network access during early reconnaissance by deploying intelligent, zero-false-positive decoy credentials.*
 
----
+
 
 [Key Features](#-key-features) • [Architecture](#-architecture) • [Getting Started](#-getting-started) • [Configuration](#-configuration) • [Integrations](#-integrations) • [License](#-license)
 
 </div>
 
----
+
 
 ## 📌 Overview
 
@@ -29,7 +29,7 @@
 
 Because legitimate operators have no valid business reason to interact with decoy tokens, any access attempt generates an immediate, high-fidelity alert with zero false positives.
 
----
+
 
 ## ✨ Key Features
 
@@ -39,7 +39,7 @@ Because legitimate operators have no valid business reason to interact with deco
 * 🔔 **Instant Alerting Dispatch:** Direct integrations with Discord, Slack, PagerDuty, Webhooks, and SIEM pipelines.
 * 🪶 **Lightweight & Modular:** Asynchronous listener design with minimal resource footprint and simple API integration.
 
----
+
 
 ## 🏗️ Architecture
 
@@ -77,7 +77,7 @@ v
 
 ```
 
----
+
 
 ## 🚀 Getting Started
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 ```
 
----
+
 
 ## ⚙️ Quick Usage
 
@@ -135,7 +135,7 @@ python honeytoken.py listen --port 8080
 
 ```
 
----
+
 
 ## 🔔 Integrations
 
@@ -148,7 +148,7 @@ Configure notifications in your `.env` file to stream real-time alerts to your s
 | **Custom Webhooks** | ✅ | Forward raw JSON payloads to custom endpoints or SIEMs |
 | **Email (SMTP)** | 🚧 | *In Development* |
 
----
+
 
 ## 🤝 Contributing
 
@@ -160,10 +160,10 @@ Contributions make the open-source community an incredible place to learn, inspi
 4. **Push** to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a **Pull Request**
 
----
+
 
 ## 🛡️ License
 
 Distributed under the **MIT License**. See [`LICENSE`](https://www.google.com/search?q=LICENSE) for details.
 
----
+
